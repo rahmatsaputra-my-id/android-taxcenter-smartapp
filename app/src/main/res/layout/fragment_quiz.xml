@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                card_view:cardCornerRadius="8dp"
+                android:layout_centerInParent="true"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="60dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/linear2"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="35sp"
+                            android:id="@+id/text1"
+                            android:layout_marginBottom="4dp"
+                            android:layout_above="@+id/linear2"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bee smart people"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Select Quiz Level :"
+                            android:textSize="12sp"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="left"
+                            />
+
+                        <Button
+                            android:textAlignment="center"
+                            android:id="@+id/btn_easy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="choose"
+                            android:background="@drawable/button_round2"
+                            android:textColor="@color/white"
+                            android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+</FrameLayout>

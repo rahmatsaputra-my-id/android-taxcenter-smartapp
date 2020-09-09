@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrond"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/view_bottom_margin" />
+
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:background="@color/colorYellow"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+    </android.support.v4.view.ViewPager>-->
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/social_floating_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="60dp"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="5dp"
+        fab:menu_colorNormal="@color/active_item_color"
+        fab:menu_colorPressed="@color/BlueDark"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_label=""
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="#333"
+        fab:menu_labels_colorPressed="#444"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="right"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="false"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#f2f1f1"
+        fab:menu_labels_textSize="11sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#66aff198"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="false">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/fb_lcon_foreground"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/BlueDark"
+            app:fab_shadowColor="#00FFFFFF"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/youtube_lcon_foreground"
+            app:fab_colorNormal="#00FFFFFF"
+            app:fab_colorPressed="@color/BlueDark"
+            app:fab_shadowColor="#00FFFFFF"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/instagram_lcon_foreground"
+            app:fab_colorNormal="#00FFFFFF"
+            app:fab_colorPressed="@color/BlueDark"
+            app:fab_shadowColor="#00FFFFFF"
+            fab:fab_size="mini" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:active_centre_button_background_color="@color/active_centre_button_background_color"
+        app:active_centre_button_icon_color="@color/active_centre_button_icon_color"
+        app:active_item_color="@color/active_item_color"
+        app:centre_button_color="@color/centre_button_color"
+        app:centre_button_icon="@drawable/ic_library_books_black_24dp"
+        app:inactive_centre_button_icon_color="@color/inactive_centre_button_icon_color"
+        app:inactive_item_color="@color/inactive_item_color"
+        app:space_background_color="@color/space_background_color"
+        app:space_item_icon_only_size="24dp"
+        app:space_item_icon_size="24dp"
+        app:space_item_text_size="0sp" />
+
+</android.widget.RelativeLayout>

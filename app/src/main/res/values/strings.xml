@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Smart Tax</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="isi_npwp"><b>  NPWP</b> adalah nomor yang diberikan kepada Wajib Pajak sebagai sarana dalam administrasi perpajakan yang dipergunakan sebagai tanda pengenal diri atau identitas Wajib Pajak dalam melaksanakan hak dan kewajiban dalam urusan perpajakan. Selain menjadi identitas diri sebagai Wajib Pajak. NPWP juga akan memudahkan Wajib Pajak dan Aparat Pajak dalam menjaga ketertiban perpajakan.</string>
+    <string name="penjelasan1">
+        Dua digit pertama, menunjukkan Identitas Wajib Pajak, yaitu:\n- 01 sampai 03 adalah Wajib Pajak Badan.\n- 04 sampai 06 adalah Wajib Pajak Pengusaha.\n- 05  adalah Wajib Pajak Karyawan.\n- 07 sampai 09 adalah Wajib Pajak Orang Pribadi.
+    </string>
+    <string name="penjelasan2"> Tiga digit kedua adalah Nomor Registrasi yang diberikan Kantor Pusat Direktotat Jenderal Pajak kepada Kantor Pelayanan Pajak (KPP).</string>
+    <string name="penjelasan3"> Tiga digit ketiga adalah Nomor Urut yang diberikan Kantor Pusat Direktotat Jenderal Pajak kepada Kantor Pelayanan Pajak (KPP).</string>
+    <string name="penjelasan4"> Satu digit berikutnya berfungi sebagai Alat Pengaman untuk menghindari terjadinya pemalsuan atau kesalahan pada NPWP.</string>
+    <string name="penjelasan5"> Tiga digit kelima merupakan nomor identitas untuk setiap KPP atau kode KPP, contohnya 015, berarti NPWP tersebut dikeluarkan di KPP Pratama Jakarta Tebet.</string>
+    <string name="penjelasan6"> Tiga digit terakhir menunjukkan Status Wajib Pajak:\n- 000 berarti Tunggal atau Pusat\n- 001 berarti Cabang, dimana angka akhir menunjukkan urutan cabang (cabang ke-1 maka 001, cabang ke-2 maka 002, dst).</string>
+
+    <string-array name="kd_wilayah">
+        <item>403 - KPP PRATAMA CIBINONG</item>
+        <item>404 - KPP PRATAMA BOGOR</item>
+        <item>407 - KPP PRATAMA BEKASI UTARA</item>
+        <item>412 - KPP PRATAMA DEPOK CIMANGGIS</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_splash"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_splash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Pancasila"
+            android:label="Pancasila"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"
+            />
+        <activity
+            android:name=".Kewarganegaraan"
+            android:label="Kewarganegaraan"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".Islam"
+            android:label="Islam"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".Indonesia"
+            android:label="Indonesia"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".Kristen"
+            android:label="Kristen"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".Katholik"
+            android:label="Katholik"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".Hindu"
+            android:label="Hindu"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".Budha"
+            android:label="Budha"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".RpsList"/>
+        <activity
+            android:name=".RpsList"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".InklusiMenu"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WalkthroughNpwp"
+            android:label="Pajak"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpeningQuiz"
+            android:label="Quiz Level"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Penjelasan_Npwp"
+            android:label="Skema NPWP"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProsedurNPWP"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".HasilNpwp"
+            android:label="Kartu NPWP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Barcode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SoalHard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SoalNormal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SoalEasy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NPWP"
+            android:label="Formulir NPWP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inklusi"
+            android:label="Inklusi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

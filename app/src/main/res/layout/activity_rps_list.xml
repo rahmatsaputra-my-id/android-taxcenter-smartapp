@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/backgrond"
+    tools:context=".InklusiMenu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/BlueDark"
+            android:layout_height="630dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="330dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_height="610dp">
+
+                    <LinearLayout
+                        android:background="@drawable/bgcard"
+                        android:layout_width="310dp"
+                        android:layout_gravity="center"
+                        android:layout_height="590dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="vertical">
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Agama Buddha"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/Buddha"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Agama Hindu"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/Hindu"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Agama Katholik"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/katholik"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Agama Kristen"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/kristen"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Bahasa Indonesia"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/indonesia"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Pendidikan Agama Islam"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/islam"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Pendidikan kewarganegaraan"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/kewarganegaraan"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="270dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_gravity="center"
+                            app:cardBackgroundColor="@color/WhiteTransparent"
+                            app:cardCornerRadius="3dp">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_margin="8dp"
+                                android:text="Pendidikan Pancasila"
+                                android:layout_gravity="center"
+                                android:textColor="@color/BlueDark"
+                                android:id="@+id/pancasila"
+                                ></Button>
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</ScrollView>

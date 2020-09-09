@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f6c31b</color>
+    <color name="colorYellow">#f6c31b</color>
+<!--    <color name="colorYellow">#DFDC50</color>-->
+<!--    <color name="colorPrimaryDark">#BFB71E</color>-->
+    <color name="colorPrimaryDark">#BFB71E</color>
+    <!--#CBFFFFFF-->
+    <color name="colorCardView">#FAFAFA</color>
+    <color name="BlueDark">#070f33</color>
+<!--    <color name="BlueDark">#251364</color>-->
+    <color name="Gray">#E7EAED</color>
+    <color name="GrayDark">#A7ACAD</color>
+    <color name="GrayButton">#DDDDDD</color>
+    <color name="GrayDn">#FAFAFA</color>
+    <color name="Black">#000000</color>
+    <color name="colorAccent">#CBFFFFFF</color>
+    <color name="WhiteTransparent">#80ffffff</color>
+    <color name="PutihTransparent">#cccccc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgrond">#E7EAED</color>
+
+    <!--Space Navigation Color-->
+<!--    <color name="space_background_color">#251364</color>-->
+    <color name="space_background_color">@color/BlueDark</color>
+    <color name="active_item_color">#f6c31b</color>
+<!--    <color name="centre_button_color">#251364</color>-->
+    <color name="centre_button_color">@color/BlueDark</color>
+    <color name="active_centre_button_background_color">#f6c31b</color>
+    <color name="inactive_item_color">#FFFFFF</color>
+<!--    <color name="active_centre_button_icon_color">#251364</color>-->
+    <color name="active_centre_button_icon_color">@color/BlueDark</color>
+    <color name="inactive_centre_button_icon_color">#FFFFFF</color>
+
+    <!--#4128A6-->
+</resources>
